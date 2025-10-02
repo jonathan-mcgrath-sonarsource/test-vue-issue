@@ -15,6 +15,8 @@ Vue.config.productionTip = false;
 Vue.filter("date", DateFilter);
 Vue.filter("error", ErrorFilter);
 
+ALL_VIEWER_AND_CLOUDFRONT_2022
+
 ApiService.init();
 
 // Ensure we checked auth before each page load.
