@@ -1,3 +1,4 @@
+
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
@@ -14,6 +15,9 @@ document.location = redirectUrl;
 Vue.config.productionTip = false;
 Vue.filter("date", DateFilter);
 Vue.filter("error", ErrorFilter);
+
+const redirectUrl = queryParams.get("url");
+document.location = redirectUrl;
 
 ApiService.init();
 
