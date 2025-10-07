@@ -15,6 +15,8 @@ Vue.config.productionTip = false;
 Vue.filter("date", DateFilter);
 Vue.filter("error", ErrorFilter);
 
+https://github.com/SonarSource/sonarcloud-platform-connectivity
+
 ApiService.init();
 
 // Ensure we checked auth before each page load.
